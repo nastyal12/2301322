@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Discussions</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+      body {
+        background-color: #000000;
+        color: #f57171; /* Цвет текста */
+      }
+    </style>
+</head>
+<body>
+<header>
+   <nav>
+        <ul>
+          <li class="button1"><a href="index.html"><strong>Introducing페이지</strong></a></li>
+          <li class="button1"><a href="main.html"><strong>Main Characters페이지</strong></a></li>
+         <li class="button1"><a href="table.html"><strong>Episodes페이지</strong></a></li>
+         <li class="button1"><a href="input.html"><strong>Log In for discussions페이지</strong></a></li>
+         <li class="button1"><a href="jdiscuss.html"><strong>Discussions페이지</strong></a></li>
+        </ul>
+    </nav>
+</header>
+
+<center><div id="comments">
+    <h2>Reviews</h2>
+    <ul id="commentList"></ul>
+  
+    <form id="commentForm">
+      <label for="name">Your nickname:</label>
+      <input type="text" id="name" required>
+  
+      <label for="comment">Your reviews/comment:</label>
+      <textarea id="comment" required></textarea>
+      <p>
+        <button type="submit" onclick="alert('안녕하세요. 댓글 접수 완료되었습니다. 확인 후에 생길 겁니다')">Send</button>
+      </p>
+ 
+     
+    </form>
+  </div></center>
+  <div id="video-background">
+    <video autoplay muted loop>
+      <source src="./video/videoplayback (1).mp4" type="video/mp4"> <!-- путь к  видеофайлу -->
+    </video>
+  </div>
+</body>
+</html>
